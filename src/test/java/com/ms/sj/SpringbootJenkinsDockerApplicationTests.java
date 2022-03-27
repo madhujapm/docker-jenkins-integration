@@ -1,5 +1,7 @@
 package com.ms.sj;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +15,7 @@ class SpringbootJenkinsDockerApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Testing started");
+		assertEquals(true, true);
 	}
 
 }
